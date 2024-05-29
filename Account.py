@@ -1,7 +1,7 @@
 class Account:
     def __init__(self):
         self.balance = 10000
-        print("Account balance is: ", self.balance)
+        print("Starting balance is: ", self.balance)
 
     def deposit(self, amount):
         self.balance = amount + self.balance
@@ -9,6 +9,6 @@ class Account:
 
     def withdraw(self, amount):
         self.balance = self.balance - amount
-        print("Account balance is: ", self.balance)
+        print("New balance is: ", self.balance)
 
 
